@@ -5,6 +5,7 @@ Port Scanner C++/python app
 # To run it
 python3 gui_scanner.py 
 
+# Screenshot
 
 <img width="402" height="314" alt="image" src="https://github.com/user-attachments/assets/87ae9593-fce0-4ec2-b270-0d84c2fdb22c" />
 
