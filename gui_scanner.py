@@ -40,7 +40,7 @@ def execute_cpp_logic(ip, port):
             lbl_result.config(text=f"Port {port} Close ❌", fg="red")
             
     except Exception as e:
-        lbl_result.config(text="Working Error", fg="orange")
+        lbl_result.config(text="something wrong,,,,  Error", fg="red")
     
     # إعادة الزر لحالته الطبيعية
     btn_scan.config(state=tk.NORMAL, text="Start Scan")
