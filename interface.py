@@ -3,6 +3,7 @@ import subprocess
 def check_port(ip, port):
     # تشغيل برنامج الـ C++ المترجم وتمرير الوسائط له
     result = subprocess.run(['./scanner', ip, str(port)], capture_output=True, text=True)
+
     
     # قراءة ما طبعه برنامج الـ C++
     status = result.stdout.strip()
