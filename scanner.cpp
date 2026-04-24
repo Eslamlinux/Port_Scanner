@@ -3,6 +3,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
+
 int main(int argc, char const *argv[]) {
     if (argc < 3) return 1; // نحتاج IP ورقم المنفذ
 
@@ -31,7 +32,7 @@ int main(int argc, char const *argv[]) {
     } else {
         std::cout << "OPEN" << std::endl;
     }
-
+//
     close(sock);
     return 0;
 }
