@@ -1,3 +1,4 @@
+// port scanner project c++ as a backend and python as a gui
 #include <iostream>
 #include <sys/socket.h>
 #include <arpa/inet.h>
