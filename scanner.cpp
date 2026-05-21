@@ -5,7 +5,7 @@
 #include <unistd.h>
 //start
 
-/////
+///////
 
 int main(int argc, char const *argv[]) {
     if (argc < 3) return 1; // نحتاج IP ورقم المنفذ
