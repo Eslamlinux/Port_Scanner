@@ -13,7 +13,7 @@ def check_port(ip, port):
     return status
 
 # تجربة الأداة
-
+//
 
 entrip = input("enter the ip like this '8.8.8.8': ")
 target_ip = entrip
