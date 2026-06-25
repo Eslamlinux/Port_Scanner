@@ -1,4 +1,4 @@
-#improt lib
+#import lib
 import tkinter as tk
 from tkinter import messagebox
 import subprocess
